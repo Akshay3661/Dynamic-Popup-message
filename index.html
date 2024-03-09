@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Students/results</title>
+  </head>
+  <body>
+    <div class="container">
+      <table id="stnTable">
+        <thead>
+          <tr>
+            <th>Students Name</th>
+            <th>Entollmemt NO.</th>
+            <th>marks out of 70</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+        <div id="popupcontaner">
+          <div id="popup" class="popup">
+            <span class="closebtn"><i class="fa-solid fa-xmark"></i></span>
+            <h1 class="Name"></h1>
+            <h2 class="EnNO"></h2>
+            <p class="marks"></p>
+          </div>
+        </div>
+      </table>
+    </div>
+
+    <script src="./students data.js"></script>
+  </body>
+</html>
